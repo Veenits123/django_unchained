@@ -8,3 +8,12 @@ def index(request):
 
 def show(request):
 	return render(request,'index.html')
+
+def display(request):
+	name="vee_nits123"
+	return render(request,'disp.html',{'uname':name})
+
+def sample(request):
+	name="vee_nits123"
+	dept="CSE"
+	return render(request,"sample.html",{'name':name,'dept':dept})

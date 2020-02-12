@@ -21,5 +21,7 @@ from djangoapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',views.index),
-    path('show/',views.show)
+    path('show/',views.show),
+    path('display/',views.display),
+    path('sample/',views.sample),
 ]
